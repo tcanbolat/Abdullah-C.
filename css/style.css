@@ -70,4 +70,31 @@ mark {
   color: white;
 }
 
+.carousel .carousel-item {
+  top: -15px;
+  height: 350px;
+  width: 300px;
+}
+
+h5 {
+  padding: 25px;
+  color: white;
+  /* margin-bottom: 20px; */
+}
+
+
+.carousel-item {
+  background-color: #cc0000;
+  border-radius: 15%;
+}
+
+.fa-tablet-alt {
+  color: whitesmoke !important;
+}
+
+.fa-github {
+  color: whitesmoke !important;
+}
+
+
 

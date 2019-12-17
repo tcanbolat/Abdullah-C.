@@ -4,11 +4,12 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Parallax Template - Materialize</title>
+  <title>Abdullah C.</title>
   <!--Import materialize.css-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/73e2d51f51.js" crossorigin="anonymous"></script>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="css/waves.css" type="text/css" rel="stylesheet" />
 </head>
@@ -19,7 +20,7 @@
       <a id="logo-container" href="#" class="brand-logo">ATC</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
 
@@ -81,8 +82,7 @@
             some languages that I'm learing and will be learining are, javascript, html, css, .node, react, git, jQuery,
             MySQL, and more.
 
-            I've been interested in technology growing up and my passion for it has flared up again. Using these skills
-            learned through the bootcamp along with my own research; my goal is to enter the industry as a full stack
+            Using these skills learned through the university of Oregon coding bootcamp along with my own research; my goal is to enter the industry as a full stack
             developer helping connect the bridge between back-end and front-end technologies.
 
           </p>
@@ -110,15 +110,53 @@
 
       <div class="row">
         <div class="col s12 center">
-          <h4 id="portfolio">Portfolio</h4>
+          <h4 id="projects">Projects</h4>
         </div>
-        <div class="row center">
-          <section class="col s4">
-            <a>Portland Food App</a>
+
+      </div>
+      <div class="row">
+        <div class="col s12 center">
+        <div class="carousel">
+
+          <section class="card carousel-item" href="#one!">
+            <h5>Portland Food App</h5>
+            <div class="card-image container">
+              <img class="responsive-img z-depth-5" src="foodAppImg.png">
+            </div>
+            <br>
+            <i class="fas fa-tablet-alt"></i>
+            <a href="https://tcanbolat.github.io/Group-Repo/">link to APP</a>
+            <br>
+            <i class="fab fa-github"></i>
+            <a href="https://github.com/tcanbolat/Group-Repo">Github Repo</a>
           </section>
-          <section class="col s4"><a>Other App</a></section>
-          <section class="col s4"><a>Other App</a></section>
+
+          <section class="card carousel-item" href="#two!">
+            <h5>Day Planner</h5>
+            <div class="card-image container">
+              <img class="responsive-img z-depth-5" src="dayPlannerApp.png">
+            </div>
+            <br>
+            <i class="fas fa-tablet-alt"></i>
+            <a href="https://tcanbolat.github.io/Day-Planner/">link to APP</a>
+            <br>
+            <i class="fab fa-github"></i>
+            <a href="https://github.com/tcanbolat/Day-Planner">Github Repo</a>
+          </section>
+          <section class="card carousel-item" href="#three!">
+            <h5>Weather App</h5>
+            <div class="card-image container">
+              <img class="responsive-img z-depth-5" src="weatherAppImg.png">
+            </div>
+            <br>
+            <i class="fas fa-tablet-alt"></i>
+            <a href="https://tcanbolat.github.io/Weather-Dashboard/">link to APP</a>
+            <br>
+            <i class="fab fa-github"></i>
+            <a href="https://github.com/tcanbolat/Weather-Dashboard">Github Repo</a>
+          </section>
         </div>
+      </div>
       </div>
 
     </div>
@@ -164,17 +202,16 @@
               </div>
             </div>
             <div class="row">
-                <div class="row">
-                  <div class="input-field col s6">
-                    <i class="material-icons prefix">mode_edit</i>
-                    <textarea id="textarea" class="materialize-textarea"></textarea>
-                    <label for="textarea">Message</label>
-                  </div>
-                </div>
-                <button class="btn waves-effect waves-light" type="submit" name="action">Send
-                  <i class="material-icons right">send</i>
-                </button>
+              <div class="input-field col s6">
+                <i class="material-icons prefix">mode_edit</i>
+                <textarea id="textarea" class="materialize-textarea"></textarea>
+                <label for="textarea">Message</label>
+              </div>
             </div>
+            <button class="btn waves-effect waves-light" type="submit" name="action">Send
+              <i class="material-icons right">send</i>
+            </button>
+
           </form>
         </div>
       </div>
@@ -182,11 +219,11 @@
     </div>
   </div>
 
-  <footer class="page-footer teal">
+  <footer class="page-footer">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
+          <h5 class="white-text">ATC</h5>
           <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our
             full time job. Any amount would help support and continue development on this project and is greatly
             appreciated.</p>
@@ -237,6 +274,18 @@
       }
     }
     typeWriter();
+
+    $(document).ready(function(){
+    $('.carousel').carousel({
+      shift: 70
+    }); 
+    
+  });
+
+  $(document).ready(function(){
+    $('.materialboxed').materialbox();
+  });
+     
   </script>
 
 </body>
