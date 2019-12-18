@@ -77,7 +77,7 @@ mark {
 }
 
 h5 {
-  padding: 25px;
+  padding: 20px;
   color: white;
   /* margin-bottom: 20px; */
 }
@@ -88,13 +88,40 @@ h5 {
   border-radius: 15%;
 }
 
-.fa-tablet-alt {
+.fa-play-circle {
   color: whitesmoke !important;
 }
 
 .fa-github {
   color: whitesmoke !important;
 }
+
+.fa-github, .fa-play-circle, .fa-linkedin {
+  font-size: 45px !important;
+  display: block !important;
+}
+
+  /* Style buttons */
+.carouselbtn {
+  background-color: DodgerBlue; /* Blue background */
+  border: none; /* Remove borders */
+  cursor: pointer; /* Mouse pointer on hover */
+  height: 80px;
+  width: 80px;
+  border-radius: 45%;
+  margin: 10px;
+}
+
+/* Darker background on mouse-over */
+.carouselbtn:hover {
+  background-color: RoyalBlue;
+}
+
+.card-image {
+  margin-bottom: 20px;
+}
+
+
 
 
 
