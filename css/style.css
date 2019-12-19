@@ -45,12 +45,12 @@ p {
   }
 }
 
-.icon-block {
+/* .icon-block {
   padding: 0 15px;
 }
 .icon-block .material-icons {
   font-size: inherit;
-}
+} */
 
 footer.page-footer {
   margin: 0;
@@ -63,11 +63,15 @@ h4 {
   text-underline-position: under;
 }
 
-mark {
+mark, .resume {
   background-color: #cc0000;
   border-radius: 10rem;
   padding:5px;
   color: white;
+}
+
+.resume {
+  background-color: DodgerBlue;
 }
 
 .carousel .carousel-item {
@@ -98,6 +102,9 @@ h5 {
 
 .fa-github, .fa-play-circle, .fa-linkedin {
   font-size: 45px !important;
+}
+
+section .fa-github, .fa-play-circle, .fa-linkedin {
   display: block !important;
 }
 
@@ -113,7 +120,7 @@ h5 {
 }
 
 /* Darker background on mouse-over */
-.carouselbtn:hover {
+.carouselbtn:hover, .resume:hover {
   background-color: RoyalBlue;
 }
 
@@ -121,7 +128,36 @@ h5 {
   margin-bottom: 20px;
 }
 
+.footerIcon {
+  width: 45px;
+  margin-right: 25px;
+}
 
+.footerIconContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+footer p {
+  line-height: 2px;
+}
+
+footer {
+  background-image: linear-gradient(to bottom, #cc0000 20%, #691414 80%);
+}
+
+footer h5 {
+  padding: 10px;
+}
+
+.left-align {
+  line-height: 20px;
+  padding: 10px;
+}
+
+.sidenav {
+  background-image: linear-gradient(to top, #cc0000 20%, #691414 80%);
+}
 
 
