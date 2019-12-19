@@ -5,9 +5,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Abdullah C.</title>
-  <!--Import materialize.css-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="https://kit.fontawesome.com/73e2d51f51.js" crossorigin="anonymous"></script>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
@@ -75,15 +73,11 @@
           </div>
           <div class="center"></div>
           <p class="light center col s12 m12 l6 offset-l3">I reside in Portland, Oregon.
-
-
             some languages that I'm learing and will be learining are, javascript, html, css, .node, react, git, jQuery,
             MySQL, and more.
-
             Using these skills learned through the university of Oregon coding bootcamp along with my own research; my
             goal is to enter the industry as a full stack
             developer helping connect the bridge between back-end and front-end technologies.
-
           </p>
         </div>
 
@@ -122,9 +116,9 @@
               <div class="card-image container">
                 <img class="materialboxed responsive-img z-depth-5" src="foodAppImg.png">
               </div>
-              <button class="btn carouselbtn waves-effect waves-light"><a href="https://tcanbolat.github.io/Group-Repo/"><i
+              <button class="btn carouselbtn waves-effect waves-light"><a href="https://tcanbolat.github.io/Portland-Food-App/"><i
                     class="far fa-play-circle"></i></a></button>
-              <button class="btn carouselbtn waves-effect waves-light"><a href="https://github.com/tcanbolat/Group-Repo"><i
+              <button class="btn carouselbtn waves-effect waves-light"><a href="https://github.com/tcanbolat/Portland-Food-App"><i
                     class="fab fa-github"></i></a></button>
             </section>
 
@@ -202,7 +196,7 @@
                 <label for="textarea">Message</label>
               </div>
             </div>
-            <button class="btn waves-effect waves-light" type="submit" name="action">Send
+            <button class="btn waves-effect waves-light sendBtn" type="submit" name="action">Send
               <i class="material-icons right">send</i>
             </button>
 
@@ -221,7 +215,7 @@
           <p class="grey-text text-lighten-4">Abdullah Canbolat</p>
           <p>Full-Stack Developer</p>
           <p class="grey-text text-lighten-4">Portland, OR</p>
-          <a class="white-text resume waves-effect waves-light" href="#!">Check out my Resume!</a>
+          <a class="white-text resume waves-effect waves-light" href="Resume.pdf">Check out my Resume!</a>
         </div>
          
         <div class="col l4 s12 m4">
@@ -244,7 +238,7 @@
 
         <div class="col l4 s12 m4">
           <p class="left-align">This website was built using a modern, responsive, front-end framework. Compatible
-            with desktop, tablet, and mobile devices. some of the tools used for design and layout are Materialize.css,
+            with desktop, tablet, and mobile devices. some of the tools used for the design and layout are Materialize.css,
             w3schools, fontawesome, and jquery.
           </p>
         </div>
@@ -263,32 +257,7 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="js/init.js"></script>
-  <script>
-    var i = 0;
-    var txt = 'Welcome!';
-    var speed = 125;
-
-    function typeWriter() {
-      if (i < txt.length) {
-        document.getElementById("typeEffect").textContent += txt.charAt(i);
-        i++;
-        setTimeout(typeWriter, speed);
-      }
-    }
-    typeWriter();
-
-    $(document).ready(function () {
-      $('.carousel').carousel({
-        shift: 60
-      });
-
-    });
-
-    $(document).ready(function () {
-      $('.materialboxed').materialbox();
-    });
-
-  </script>
+  <script src="js/script.js"></script>
 
 </body>
 
