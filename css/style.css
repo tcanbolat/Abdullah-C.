@@ -97,10 +97,10 @@ h5 {
 }
 
 .fa-github {
-  color: whitesmoke !important;
+  color: whitesmoke;
 }
 
-.fa-github, .fa-play-circle, .fa-linkedin {
+button .fa-github, .fa-play-circle, .footerIcon .fa-linkedin, .footerIcon .fa-github {
   font-size: 45px !important;
 }
 
@@ -160,4 +160,18 @@ footer h5 {
   background-image: linear-gradient(to top, #cc0000 20%, #691414 80%);
 }
 
+.user-view {
+padding-left: 0px !important;
+}
 
+span {
+  padding-left: 15px;
+}
+
+.seperator1 {
+  padding: 0px 10px 10px 10px;
+}
+
+.seperator2 {
+  padding: 10px;
+}
