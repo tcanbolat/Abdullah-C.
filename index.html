@@ -15,27 +15,33 @@
 <body>
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">ATC</a>
+      <a onmouseover="spin(this)" onmouseout="stopSpin(this)" href="#" class="brand-logo">ATC</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-
       <ul id="nav-mobile" class="sidenav">
-        <li><div class="user-view">
-          <img class="sidenavImg" width="110px" src="sideNavMe.png">
-          <span class="white-text name">Abdullah Canbolat</span>
-          <span class="white-text email">kangalcanbolat@gmail.com</span>
-        </div></li>
-        <li class="seperator1"><div class="divider"></div></li>
+        <li>
+          <div class="user-view">
+            <img class="sidenavImg" width="110px" src="images/sideNavMe.png">
+            <span class="white-text name">Abdullah Canbolat</span>
+            <span class="white-text email">kangalcanbolat@gmail.com</span>
+          </div>
+        </li>
+        <li class="seperator1">
+          <div class="divider"></div>
+        </li>
         <li><a class="white-text sidenav-close" href="#about"><i class="teal-text fas fa-user"></i>About</a></li>
-        <li><a class="white-text sidenav-close" href="#projects"><i class="teal-text fas fa-file-code"></i>Projects</a></li>
+        <li><a class="white-text sidenav-close" href="#projects"><i class="teal-text fas fa-file-code"></i>Projects</a>
+        </li>
         <li><a class="white-text sidenav-close" href="#contact"><i class="teal-text fas fa-envelope-square"></i>Contact</a></li>
-        <li class="seperator2"><div class="divider"></div></li>
+        <li class="seperator2">
+          <div class="divider"></div>
+        </li>
         <li><a class="white-text sidenav-close" href="Resume.pdf"><i class="teal-text fas fa-user"></i>My Resume</a></li>
-        <li><a class="white-text sidenav-close" href="Resume.pdf"><i class="teal-text fab fa-linkedin"></i>Linkedin Account</a></li>
-        <li><a class="white-text sidenav-close" href="Resume.pdf"><i class="teal-text fab fa-github"></i>Github Account</a></li>
+        <li><a class="white-text sidenav-close" href="https://www.linkedin.com/in/abdullah-canbolat-6ab794109/"><i class="teal-text fab fa-linkedin"></i>Linkedin Account</a></li>
+        <li><a class="white-text sidenav-close" href="https://github.com/tcanbolat"><i class="teal-text fab fa-github"></i>Github Account</a></li>
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
@@ -67,17 +73,13 @@
     </div>
   </div>
 
-
   <div class="container">
     <div class="section">
-
-      <!--   Icon Section   -->
       <div class="row">
-
         <div class="col s12 m12 l12">
           <div class="center">
             <h4 id="about">About Me</h4>
-            <img class="responsive-img" src="selfEmoji.png" />
+            <img class="responsive-img" src="images/selfEmoji.png" />
             <p class="light">Hi, my name is <mark class="z-depth-3">Abdullah</mark> This is my website! </p>
           </div>
           <div class="center"></div>
@@ -89,13 +91,9 @@
             developer helping connect the bridge between back-end and front-end technologies.
           </p>
         </div>
-
-
       </div>
-
     </div>
   </div>
-
 
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
@@ -104,58 +102,54 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="PortfolioBckgrnd.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="images/PortfolioBckgrnd.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
   <div class="container">
     <div class="section">
-
       <div class="row">
         <div class="col s12 center">
           <h4 id="projects">Projects</h4>
         </div>
-
       </div>
       <div class="row">
         <div class="col s12 center">
           <div class="carousel">
-
             <section class="card carousel-item" href="#one!">
               <h5>Portland Food App</h5>
               <div class="card-image container">
-                <img class="materialboxed responsive-img z-depth-5" src="foodAppImg.png">
+                <img class="materialboxed responsive-img z-depth-5" src="images/foodAppImg.png">
               </div>
-              <button class="btn carouselbtn waves-effect waves-light"><a href="https://tcanbolat.github.io/Portland-Food-App/"><i
-                    class="far fa-play-circle"></i></a></button>
-              <button class="btn carouselbtn waves-effect waves-light"><a href="https://github.com/tcanbolat/Portland-Food-App"><i
-                    class="fab fa-github"></i></a></button>
+              <button class="btn carouselbtn waves-effect waves-light"><a
+                  href="https://tcanbolat.github.io/Portland-Food-App/"><i class="far fa-play-circle"></i></a></button>
+              <button class="btn carouselbtn waves-effect waves-light"><a
+                  href="https://github.com/tcanbolat/Portland-Food-App"><i class="fab fa-github"></i></a></button>
             </section>
 
             <section class="card carousel-item" href="#two!">
               <h5>Day Planner</h5>
               <div class="card-image container">
-                <img class="materialboxed responsive-img z-depth-5" src="dayPlannerApp.png">
+                <img class="materialboxed responsive-img z-depth-5" src="images/dayPlannerApp.png">
               </div>
-              <button class="btn carouselbtn waves-effect waves-light"><a href="https://tcanbolat.github.io/Day-Planner/"><i
-                    class="far fa-play-circle"></i></a></button>
-              <button class="btn carouselbtn waves-effect waves-light"><a href="https://github.com/tcanbolat/Day-Planner"><i
-                    class="fab fa-github"></i></a></button>
+              <button class="btn carouselbtn waves-effect waves-light"><a
+                  href="https://tcanbolat.github.io/Day-Planner/"><i class="far fa-play-circle"></i></a></button>
+              <button class="btn carouselbtn waves-effect waves-light"><a
+                  href="https://github.com/tcanbolat/Day-Planner"><i class="fab fa-github"></i></a></button>
             </section>
 
             <section class="card carousel-item" href="#three!">
               <h5>Weather App</h5>
               <div class="card-image container">
-                <img class="materialboxed responsive-img z-depth-5" src="weatherAppImg.png">
+                <img class="materialboxed responsive-img z-depth-5" src="images/weatherAppImg.png">
               </div>
-              <button class="btn carouselbtn waves-effect waves-light"><a href="https://tcanbolat.github.io/Weather-Dashboard/"><i
-                    class="far fa-play-circle"></i></a></button>
-              <button class="btn carouselbtn waves-effect waves-light"><a href="https://github.com/tcanbolat/Weather-Dashboard"><i
-                    class="fab fa-github"></i></a></button>
+              <button class="btn carouselbtn waves-effect waves-light"><a
+                  href="https://tcanbolat.github.io/Weather-Dashboard/"><i class="far fa-play-circle"></i></a></button>
+              <button class="btn carouselbtn waves-effect waves-light"><a
+                  href="https://github.com/tcanbolat/Weather-Dashboard"><i class="fab fa-github"></i></a></button>
             </section>
           </div>
         </div>
       </div>
-
     </div>
   </div>
 
@@ -167,14 +161,13 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="bigData.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="images/bigData.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
 
 
   <div class="container">
     <div class="section">
-
       <div class="row">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
@@ -189,7 +182,6 @@
                 <label for="name">Name</label>
               </div>
             </div>
-
             <div class="row">
               <div class="input-field col s6 l4">
                 <i class="material-icons prefix">email</i>
@@ -208,11 +200,9 @@
             <button class="btn waves-effect waves-light sendBtn" type="submit" name="action">Send
               <i class="material-icons right">send</i>
             </button>
-
           </form>
         </div>
       </div>
-
     </div>
   </div>
 
@@ -226,33 +216,26 @@
           <p class="grey-text text-lighten-4">Portland, OR</p>
           <a class="white-text resume waves-effect waves-light" href="Resume.pdf">Check out my Resume!</a>
         </div>
-         
         <div class="col l4 s12 m4">
           <h5 class="white-text">follow me on:</h5>
-
-
           <div class="footerIconContainer">
-          <div class="footerIcon">
-            <a href="https://github.com/tcanbolat"><i class="fab fa-github"></i></a>
-            <a class="white-text" href="https://github.com/tcanbolat">Github</a>
-          </div>
-
-          <div class="footerIcon">
-            <a href="https://www.linkedin.com/in/abdullah-canbolat-6ab794109/"><i class="fab fa-linkedin"></i></a>
-            <a class="white-text" href="https://www.linkedin.com/in/abdullah-canbolat-6ab794109/">Linkedin</a>
+            <div class="footerIcon">
+              <a href="https://github.com/tcanbolat"><i class="fab fa-github"></i></a>
+              <a class="white-text" href="https://github.com/tcanbolat">Github</a>
+            </div>
+            <div class="footerIcon">
+              <a href="https://www.linkedin.com/in/abdullah-canbolat-6ab794109/"><i class="fab fa-linkedin"></i></a>
+              <a class="white-text" href="https://www.linkedin.com/in/abdullah-canbolat-6ab794109/">Linkedin</a>
+            </div>
           </div>
         </div>
-
-        </div>
-
         <div class="col l4 s12 m4">
           <p class="left-align">This website was built using a modern, responsive, front-end framework. Compatible
-            with desktop, tablet, and mobile devices. some of the tools used for the design and layout are Materialize.css,
+            with desktop, tablet, and mobile devices. some of the tools used for the design and layout are
+            Materialize.css,
             w3schools, fontawesome, and jquery.
           </p>
         </div>
-
-
       </div>
     </div>
     <div class="footer-copyright">
@@ -262,12 +245,17 @@
     </div>
   </footer>
 
-  <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="js/init.js"></script>
   <script src="js/script.js"></script>
-
-</body>
-
+  <script>
+  function spin(x){
+        x.setAttribute("id", "spinner");
+    };
+    function stopSpin(x){
+        x.setAttribute("id", "");
+    };
+    </script>
+</body> 
 </html>

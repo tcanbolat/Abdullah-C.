@@ -29,6 +29,7 @@ $(document).ready(function () {
     // materialize css function to zoom images
     $('.materialboxed').materialbox();
 
+
 });
 
 
