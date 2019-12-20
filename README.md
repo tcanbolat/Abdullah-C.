@@ -12,6 +12,8 @@ Description: this is my personal website, built to showcase my skills and projec
     3. contact form - form to send me a message (not setup yet)
 
  - my social profiles are listed at the footer along with a link to my resume.
+ 
+ Link: https://tcanbolat.github.io/Abdullah-C./
 
  Credits:
 
